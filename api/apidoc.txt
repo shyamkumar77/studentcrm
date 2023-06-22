@@ -1,0 +1,36 @@
+ list all students
+ ========================
+ url: http://127.0.0.1:8000/api/students
+ method:get
+ body:null
+ header:null
+
+
+ student detail
+ =====================
+url:http://127.0.0.1:8000/api/students{id}/
+method:get
+body:null
+header:null
+
+
+student create
+=================
+url:http://127.0.0.1:8000/api/students/
+method:post
+body: {"name":"shyam","course":"python","email":"sk@gmail.com","address":"kochi","contact":1245632145,"gender":"male"}
+
+
+student update
+=================
+url:http://127.0.0.1:8000/api/students{id}/
+method:put
+body: {"name":"shyam","course":"python","email":"sk@gmail.com","address":"kochi","contact":1245632145,"gender":"male"}
+
+
+student delete
+=====================
+url:http://127.0.0.1:8000/api/students{id}/
+method:delete
+body:null
+
